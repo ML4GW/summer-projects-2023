@@ -1,5 +1,10 @@
 # Symmetry-informed Normalizing Flows
 
+MIT_Gravitational_Waves_Research_Report_2023_Maanas_Goel
+  - available in docs
+  - overleaf view report link: https://www.overleaf.com/read/kmxckfhbvdvg
+
+
 DAMPED SHO
 - `damped-harmonic-oscillator-with-similarity-embedding-training.ipynb`
   - Damped SHO trained the flow using similarity embedding
