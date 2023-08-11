@@ -32,7 +32,7 @@ DAMPED SHO
 - `events.out.tfevents.1691020505.submit20.mit.edu.745862.0`
   - Writer for the flow without the similarity embedding, used in the moneyplot file (Ea2)
 
-- 'damped-harmonic-oscillator-similarity-embedding-weights.pth`
+- `damped-harmonic-oscillator-similarity-embedding-weights.pth`
   - Trained and saved weights of the similarity embedding
 
 - `damped-harmonic-oscillator-with-similarity-embedding-flow-weights.pth`
@@ -74,7 +74,7 @@ SINE GAUSSIAN
 - `events.out.tfevents.1691519471.submit23.mit.edu.1457535.0`
   - Writer for the flow without the similarity embedding, used in the moneyplot file (Ea2)
 
-- 'sine-gaussian-similarity-embedding-weights.pth`
+- `sine-gaussian-similarity-embedding-weights.pth`
   - Trained and saved weights of the similarity embedding
 
 - `sine-gaussian-with-similarity-embedding-flow-weights.pth`
