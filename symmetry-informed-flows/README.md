@@ -1,5 +1,6 @@
 # Symmetry-informed Normalizing Flows
 
+DAMPED SHO
 - `damped-harmonic-oscillator-with-similarity-embedding-training.ipynb`
   - Damped SHO trained the flow using similarity embedding
   - generate time shifted data and signal for damped sho
@@ -40,5 +41,46 @@
 - `damped-harmonic-oscillator-without-similarity-embedding-flow-weights.pth`
   - Trained and saved weights of the flow without the sim. emb.
 
+
+SINE GAUSSIAN
+- `sine-gaussian-with-similarity-embedding-training.ipynb`
+  - Sine-gaussian trained the flow using similarity embedding
+  - generate time shifted data and signal for sine-gaussian
+  - augment sine-gaussian data that is time shifted
+  - vicreg loss used to train similarity embedding
+  - convolutional 2d residual net used for similarity embedding layers
+  - froze similarity embedding weights, passed them for the flow training
+  - posterior widths and pp plots for the flow training results
+
+
+- `sine-gaussian-without-similarity-embedding-training.ipynb`
+  - Sine-gaussian trained the flow without the similarity embedding
+  - generate time shifted data and signal for sine-gaussian
+  - augment sine-gaussian data that is time shifted
+  - did not train similarity embedding
+  - did not pass weights to the flow training
+  - posterior widths and pp plots for the flow training results
+
+
+- `sine-gaussian-moneyplot-similarity-embedding-improvement.ipynb`
+  - Shows the efficiency of the similarity embedding
+  - Compares the losses of the flow training with/without the similarity embedding
+  - plots the loss curves on one plot
+
+
+- `events.out.tfevents.1691516020.submit23.mit.edu.1453564.1`
+  - Writer for the flow with the similarity embedding, used in the moneyplot file (Ea1)
+
+- `events.out.tfevents.1691519471.submit23.mit.edu.1457535.0`
+  - Writer for the flow without the similarity embedding, used in the moneyplot file (Ea2)
+
+- 'sine-gaussian-similarity-embedding-weights.pth`
+  - Trained and saved weights of the similarity embedding
+
+- `sine-gaussian-with-similarity-embedding-flow-weights.pth`
+  - Trained and saved weights of the flow with the sim. emb.
+
+- `sine-gaussian-without-similarity-embedding-flow-weights.pth`
+  - Trained and saved weights of the flow without the sim. emb.
 
 
